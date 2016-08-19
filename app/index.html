@@ -26,7 +26,7 @@
     <meta name="msapplication-TileColor" content="#212121">
 
     <meta name="theme-color" content="#212121">
-    
+
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
@@ -46,7 +46,7 @@
             </label>
           </div>
         </div>
-     
+
         <div id="qrcode" class="wsk-card wsk-shadow--z3 QRCodeSuccessDialog">
           <div class="wsk-card--heading">
              <span class="wsk-card--heading-text">QR Code found</span>
@@ -71,7 +71,7 @@
     <script src="scripts/third_party/rAF.js"></script>
     <script src="scripts/qrclient.js"></script>
     <!-- endbuild -->
-
+    <!-- imported inside qrworker.js
     <script type="text/javascript" src="scripts/jsqrcode/grid.js"></script>
     <script type="text/javascript" src="scripts/jsqrcode/version.js"></script>
     <script type="text/javascript" src="scripts/jsqrcode/detector.js"></script>
@@ -89,13 +89,13 @@
     <script type="text/javascript" src="scripts/jsqrcode/findpat.js"></script>
     <script type="text/javascript" src="scripts/jsqrcode/alignpat.js"></script>
     <script type="text/javascript" src="scripts/jsqrcode/databr.js"></script>
-
-    <script>
+    -->
+    <!--<script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' })
         .then(function() { console.log("Service Worker Registered"); });
     }
-    </script>
+  </script>
 
 
     <script>
@@ -107,7 +107,7 @@
       ga('create', 'UA-59325548-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
+    </script>-->
     <!-- Built with love using Web Starter Kit -->
   </body>
 </html>
